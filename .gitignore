@@ -8,3 +8,5 @@ export-test-*
 *.iml
 *.ipr
 *.iws
+/.project
+/.classpath
