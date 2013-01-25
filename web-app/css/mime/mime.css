@@ -1,0 +1,299 @@
+/* spritemapper.output_css = mime-sprite.css */
+/*!
+ * 
+ * mime-type icons
+ * by firejune(http://firejune.com)
+ * icon image form http://www.splitbrain.org/projects/file_icons
+ *
+ */
+
+.application_x-7z-compressed, .application_x-chm, .video_divx, .text_html,
+.application_x-lua, .text_x-lua, .application_vnd-oasis-opendocument-image,
+.image_png, .application_x-rpm, .application_x-tar, .video_x-ms-wmv, .audio_x-aiff,
+.application_x-java-class, .application_doc, .application_vnd-msword, 
+.application_vnd-ms-word, .text_html, .application_freemind, 
+.application_vnd-oasis-opendocument-presentation, .application_vnd-ms-powerpoint,
+.application_rtf, .application_x-rtf, .application_x-tex, .application_vnd-ms-excel,
+.application_msexcel, .application_illustrator, .conf, .application_x-dot, .application_dot,
+.image, .video_quicktime, .application_vnd-oasis-opendocument-spreadsheet, 
+.application_postscript, .application_pgp-signature, .application_x-tar, .application_xml,
+.application_x-pgp, .text_x-c, .message_rfc822, .application_x-iso9660-image, .audio_mpeg,
+.application_vnd-oasis-opendocument-text, .application_x-python, .text_x-sql, .text_plain,
+.application_x-xpinstall, .audio, .text_x-cpp, .application_pre-encrypted, 
+.application_java-archive, .video_mpeg, .application_ogg, .audio_ogg, .video_ogg, 
+.audio_x-pn-realaudio, .application_ram, .application_x-shockwave-flash, .text_x-vcard,
+.video_x-xvid, .application_octet-stream, .text_x-csharp, .file, .text_java,
+.m, .application_pdf, .application_x-rar, .application_vnd-sun-xml-calc, .video, 
+.application_zip, .application_bzip2, .text_css, .image_gif, .image_jpeg, 
+.application_vnd-oasis-opendocument-chart, .application_pgp, .application_x-ruby, 
+.application_vnd-sun-xml-draw, .application_vsd, .application_x-coldfusion, .text_csv,
+.text_comma-separated-values, .application_gzip, .application_x-gzip, .application_x-gunzip,
+.image_jpg .image_jpeg, .application_vnd-oasis-opendocument-text, .text_php,
+.application_x-httpd-php, .application_vnd-sun-xml-impress, .audio_wav, .audio_x-wav,
+.cfm, .application_x-deb, .application_winhlp, .application_x-winhelp, 
+.application_javascript, .application_x-javascript, 
+.application_vnd-oasis-opendocument-graphics, .application_x-perl, 
+.application_vnd-rn-realmedia, .application_vnd-sun-xml-writer, .audio_x-ms-wma {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.application_x-7z-compressed { 
+    background: transparent url("mime/7z.png") no-repeat; 
+}
+.application_x-chm {
+    background: transparent url("mime/chm.png") no-repeat; 
+}
+.video_divx { 
+    background: transparent url("mime/divx.png") no-repeat; 
+}
+.text_html {
+    background: transparent url("mime/html.png") no-repeat; 
+}
+.application_x-lua, .text_x-lua {
+    background: transparent url("mime/lua.png") no-repeat; 
+}
+.application_vnd-oasis-opendocument-image {
+    background: transparent url("mime/odi.png") no-repeat; 
+}
+.image_png {
+    background: transparent url("mime/png.png") no-repeat; 
+}
+.application_x-rpm {
+    background: transparent url("mime/rpm.png") no-repeat; 
+}
+.application_x-tar { 
+    background: transparent url("mime/tar.png") no-repeat; 
+}
+.video_x-ms-wmv { 
+    background: transparent url("mime/wmv.png") no-repeat; 
+}
+.audio_x-aiff { 
+    background: transparent url("mime/aiff.png") no-repeat; 
+}
+.application_x-java-class { 
+    background: transparent url("mime/class.png") no-repeat; 
+}
+.application_doc, .application_vnd-msword, .application_vnd-ms-word { 
+    background: transparent url("mime/doc.png") no-repeat; 
+}
+.text_html { 
+    background: transparent url("mime/htm.png") no-repeat; 
+}
+.application_freemind {
+    background: transparent url("mime/mm.png") no-repeat; 
+}
+.application_vnd-oasis-opendocument-presentation {
+    background: transparent url("mime/odp.png") no-repeat; 
+}
+.application_vnd-ms-powerpoint { 
+    background: transparent url("mime/ppt.png") no-repeat; 
+}
+.application_rtf, .application_x-rtf  { 
+    background: transparent url("mime/rtf.png") no-repeat; 
+}
+.application_x-tex { 
+    background: transparent url("mime/tex.png") no-repeat; 
+}
+.application_vnd-ms-excel, .application_msexcel { 
+    background: transparent url("mime/xls.png") no-repeat; 
+}
+.application_illustrator { 
+    background: transparent url("mime/ai.png") no-repeat; 
+}
+.conf { 
+    background: transparent url("mime/conf.png") no-repeat; 
+}
+.application_x-dot, .application_dot {
+    background: transparent url("mime/dot.png") no-repeat; 
+}
+.image { 
+    background: transparent url("mime/image.png") no-repeat; 
+}
+.video_quicktime { 
+    background: transparent url("mime/mov.png") no-repeat; 
+}
+.application_vnd-oasis-opendocument-spreadsheet { 
+    background: transparent url("mime/ods.png") no-repeat; 
+}
+.application_postscript { 
+    background: transparent url("mime/ps.png") no-repeat; 
+}
+.application_pgp-signature { 
+    background: transparent url("mime/sig.png") no-repeat; 
+}
+.application_x-tar {
+    background: transparent url("mime/tgz.png") no-repeat; 
+}
+.application_xml {
+    background: transparent url("mime/xml.png") no-repeat; 
+}
+.application_x-pgp {
+    background: transparent url("mime/asc.png") no-repeat; 
+}
+.text_x-c {
+    background: transparent url("mime/c.png") no-repeat; 
+}
+.message_rfc822 { 
+    background: transparent url("mime/eml.png") no-repeat; 
+}
+.application_x-iso9660-image { 
+    background: transparent url("mime/iso.png") no-repeat; 
+}
+.audio_mpeg { 
+    background: transparent url("mime/mp3.png") no-repeat; 
+}
+.application_vnd-oasis-opendocument-text { 
+    background: transparent url("mime/odt.png") no-repeat; 
+}
+.application_x-python { 
+    background: transparent url("mime/py.png") no-repeat; 
+}
+.text_x-sql {
+    background: transparent url("mime/sql.png") no-repeat; 
+}
+.text_plain { 
+    background: transparent url("mime/txt.png") no-repeat; 
+}
+.application_x-xpinstall { 
+    background: transparent url("mime/xpi.png") no-repeat; 
+}
+.audio { 
+    background: transparent url("mime/audio.png") no-repeat; 
+}
+.text_x-cpp { 
+    background: transparent url("mime/cpp.png") no-repeat; 
+}
+.application_pre-encrypted { 
+    background: transparent url("mime/enc.png") no-repeat; 
+}
+.application_java-archive { 
+    background: transparent url("mime/jar.png") no-repeat; 
+}
+.video_mpeg { 
+    background: transparent url("mime/mpg.png") no-repeat; 
+}
+.application_ogg, .audio_ogg, .video_ogg { 
+    background: transparent url("mime/ogg.png") no-repeat; 
+}
+.audio_x-pn-realaudio, .application_ram { 
+    background: transparent url("mime/ram.png") no-repeat;
+}
+.application_x-shockwave-flash {
+    background: transparent url("mime/swf.png") no-repeat; 
+}
+.text_x-vcard { 
+    background: transparent url("mime/vcf.png") no-repeat; 
+}
+.video_x-xvid { 
+    background: transparent url("mime/xvid.png") no-repeat; 
+}
+.application_octet-stream {
+    background: transparent url("mime/bin.png") no-repeat; 
+}
+.text_x-csharp {
+    background: transparent url("mime/cs.png") no-repeat; 
+}
+.file { 
+    background: transparent url("mime/file.png") no-repeat; 
+}
+.text_java {
+    background: transparent url("mime/java.png") no-repeat; 
+}
+.m { 
+    background: transparent url("mime/m.png") no-repeat; 
+}
+.application_pdf {
+    background: transparent url("mime/pdf.png") no-repeat; 
+}
+.application_x-rar {
+    background: transparent url("mime/rar.png") no-repeat; 
+}
+.application_vnd-sun-xml-calc { 
+    background: transparent url("mime/sxc.png") no-repeat; 
+}
+.video { 
+    background: transparent url("mime/video.png") no-repeat;
+}
+.application_zip { 
+    background: transparent url("mime/zip.png") no-repeat; 
+}
+.application_bzip2 { 
+    background: transparent url("mime/bz2.png") no-repeat; 
+}
+.text_css {
+    background: transparent url("mime/css.png") no-repeat; 
+}
+.image_gif {
+    background: transparent url("mime/gif.png") no-repeat; 
+}
+.image_jpeg {
+    background: transparent url("mime/jpeg.png") no-repeat; 
+}
+.application_vnd-oasis-opendocument-chart {
+    background: transparent url("mime/odc.png") no-repeat; 
+}
+.application_pgp { 
+    background: transparent url("mime/pgp.png") no-repeat; 
+}
+.application_x-ruby { 
+    background: transparent url("mime/rb.png") no-repeat; 
+}
+.application_vnd-sun-xml-draw { 
+    background: transparent url("mime/sxd.png") no-repeat; 
+}
+.application_vsd { 
+    background: transparent url("mime/vsd.png") no-repeat; 
+}
+.application_x-coldfusion { 
+    background: transparent url("mime/cfc.png") no-repeat; 
+}
+.text_csv, .text_comma-separated-values { 
+    background: transparent url("mime/csv.png") no-repeat; 
+}
+.application_gzip, .application_x-gzip, .application_x-gunzip { 
+    background: transparent url("mime/gz.png") no-repeat; 
+}
+.image_jpg .image_jpeg { 
+    background: transparent url("mime/jpg.png") no-repeat; 
+}
+.application_vnd-oasis-opendocument-text { 
+    background: transparent url("mime/odf.png") no-repeat; 
+}
+.text_php, .application_x-httpd-php { 
+    background: transparent url("mime/php.png") no-repeat; 
+}
+.application_vnd-sun-xml-impress { 
+    background: transparent url("mime/sxi.png") no-repeat; 
+}
+.audio_wav, .audio_x-wav { 
+    background: transparent url("mime/wav.png") no-repeat; 
+}
+.cfm { 
+    background: transparent url("mime/cfm.png") no-repeat; 
+}
+.application_x-deb { 
+    background: transparent url("mime/deb.png") no-repeat; 
+}
+.application_winhlp, .application_x-winhelp { 
+    background: transparent url("mime/hlp.png") no-repeat; 
+}
+.application_javascript, .application_x-javascript { 
+    background: transparent url("mime/js.png") no-repeat; 
+}
+.application_vnd-oasis-opendocument-graphics { 
+    background: transparent url("mime/odg.png") no-repeat; 
+}
+.application_x-perl {
+    background: transparent url("mime/pl.png") no-repeat; 
+}
+.application_vnd-rn-realmedia { 
+    background: transparent url("mime/rm.png") no-repeat; 
+}
+.application_vnd-sun-xml-writer {
+    background: transparent url("mime/sxw.png") no-repeat; 
+}
+.audio_x-ms-wma {   
+    background: transparent url("mime/wma.png") no-repeat; 
+}

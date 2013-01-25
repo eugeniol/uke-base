@@ -1,0 +1,10 @@
+/web-app/testing/
+/web-app/WeceemFiles/
+export-test-*
+/target
+/stacktrace.log
+/test/files/default-space-tests/WeceemFiles
+/.idea
+*.iml
+*.ipr
+*.iws

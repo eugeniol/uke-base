@@ -1,0 +1,352 @@
+.ic-planilla table,
+.ic-planilla td,
+.ic-planilla th,
+.ic-planilla tr,
+.ic-planilla col,
+.ic-planilla colgroup {
+    border-collapse: collapse;
+    padding: 0;
+    border: none;
+    border-spacing: 0;
+    margin: 0;
+    white-space: normal;
+}
+
+.ic-planilla {
+    font-size: 13px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    padding: 5px;
+}
+
+.ic-planilla tbody tr th {
+    position: relative;
+    padding-right: 20px;
+}
+
+.ic-planilla tbody tr th .btn-group {
+    visibility: hidden;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    opacity: 0;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+.ic-planilla tbody tr th:hover .btn-group {
+    visibility: visible;
+
+    opacity: 1;
+}
+
+.ic-planilla table {
+    margin: 10px auto;
+    width: auto;
+}
+
+.ic-planilla th.cal_1T,
+.ic-planilla th.cal_2T,
+.ic-planilla th.cal_3T,
+.ic-planilla th.cal_1I,
+.ic-planilla th.cal_2I,
+.ic-planilla col.cal_global,
+.ic-planilla th.cal_F {
+    border: 1px solid #999;
+}
+
+.ic-planilla table thead {
+    border-bottom: 1px solid #999;
+}
+
+.ic-planilla thead th {
+    color: #000000;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.ic-planilla colgroup#col-1T,
+.ic-planilla colgroup#col-2T,
+.ic-planilla colgroup#col-3T {
+    background: #ece9d8;
+}
+
+.ic-planilla colgroup#col-F {
+    background: #ccc;
+}
+
+.ic-planilla colgroup#col-F col {
+    border-right: 1px solid #999;
+}
+
+.ic-planilla col.cal_global {
+    background: #999;
+}
+
+.ic-planilla col.cal_nota {
+    border-left: 1px solid #999;
+}
+
+.ic-planilla colgroup {
+    border-right: 1px solid #999;
+}
+
+.ic-planilla th.topgroup,
+.ic-planilla col#col-F-final {
+    background: #999;
+    color: #fff;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.ic-planilla col.alumnos {
+    border-right: 1px solid #CCC;
+    background: #fff;
+}
+
+.ic-planilla th.th-1I,
+.ic-planilla th.th-2I {
+    background: #fff;
+    font-weight: normal;
+    font-size: 11px;
+    color: #333;
+}
+
+.ic-planilla thead th.nota {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+.ic-planilla thead th.level-2 {
+    color: #fff;
+}
+
+.info-planilla {
+    vertical-align: bottom;
+}
+
+.info-planilla p {
+    margin: 5px;
+    max-width: 180px;
+}
+
+.ic-planilla .status-bar {
+    text-align: left;
+    width: 400px;
+    margin: auto;
+}
+
+.ic-planilla tbody th {
+    border-left: 1px solid #999;
+    font-weight: normal;
+    text-align: left;
+    font-size: 11px;
+    padding: 0 4px;
+    max-width: 200px;
+    line-height: 10px;
+    overflow: hidden;
+}
+
+.ic-planilla .context-menu {
+    position: absolute;
+    visibility: hidden;
+    width: 250px;
+    top: 0;
+    right: -250px;
+    z-index: 1000;
+}
+
+.ic-planilla .context-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    z-index: 10001;
+    text-align: left;
+}
+
+.context-menu ul select {
+    cursor: pointer;
+    width: 130px;
+    height: 100px;
+    margin: 0 0 2px;
+    text-align: left;
+    font-size: 13px;
+    border: none;
+    overflow: auto;
+}
+
+.context-menu ul select option:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+.ic-planilla .context-menu ul.wrap {
+    border: 1px outset #ccc;
+    min-height: 50px;
+    padding: 5px;
+    margin: 0 0 0 2px;
+    width: 160px;
+    background: #fff;
+
+    /*
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    */
+}
+
+.ic-planilla .context-menu ul li {
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.ic-planilla ul li a:hover {
+    text-decoration: underline;
+}
+
+.ic-planilla tbody td {
+    position: relative;
+}
+
+.ic-planilla tbody td .context-menu {
+    visibility: visible;
+}
+
+.ic-planilla table tfoot p {
+    margin: 0 0 5px;
+}
+
+.ic-planilla table tfoot {
+    border-top: 1px solid #999;
+    text-align: left;
+}
+
+.ic-planilla table tfoot td {
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+.ic-planilla tbody th label {
+    display: inline-block;
+    width: 32px;
+}
+
+.ic-planilla tbody tr.even th {
+    background-color: #f9f9f9;
+}
+
+.ic-planilla tbody tr.odd th {
+    background-color: #f3f3f3;
+}
+
+.ic-planilla tbody tr.even .nota {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.ic-planilla tbody tr.odd .nota {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.print .ic-planilla tbody tr .nota {
+    background: none;
+}
+
+/*
+.ic-planilla tbody tr.active td,
+.ic-planilla tbody tr.active th {
+    background: rgba(82, 168, 236, 0.2);
+}
+*/
+.ic-planilla td .nota {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    font-family: arial;
+    font-size: 13px;
+    width: 26px;
+    height: 16px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    background: transparent;
+    margin: 0;
+    padding: 4px 1px;
+}
+
+.ic-planilla td span.read-only {
+    display: inline-block;
+}
+
+.ic-planilla td input.editable:focus,
+.ic-planilla td input.invalid,
+.ic-planilla td input.modified,
+.ic-planilla td input.updated {
+    background: transparent url(img/tick.gif) top right no-repeat;
+    font-weight: bold;
+    color: green;
+    text-align: left;
+    padding: 8px 1px 0;
+    outline: 0;
+}
+
+.ic-planilla td input.editable:focus {
+    width: 24px;
+    background: #fff;
+    border: 1px inset #ccc;
+    padding: 2px 0 2px 2px;
+    margin: 1px 0;
+}
+
+.ic-planilla td input {
+    cursor: default;
+}
+
+.ic-planilla td input.modified {
+    background: transparent url(img/field_input.gif) top right no-repeat;
+}
+
+.ic-planilla td input.invalid {
+    background: transparent url(img/cross.gif) top right no-repeat;
+    color: red;
+}
+
+.ic-planilla td input.read-only {
+    color: #999;
+}
+
+.qtip .info, .qtip .info h5, .qtip .info p, .qtip .info ul {
+    margin: 0 0 5px;
+    padding: 0;
+}
+
+.qtip .info ul {
+    margin: 0 0 5px 10px;
+    list-style-position: inside;
+}
